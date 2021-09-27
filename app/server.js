@@ -3,6 +3,7 @@ const favicon = require('serve-favicon');
 const path = require('path');
 
 const app = express();
+console.log('SQUID GAME #001');
 
 // public assets
 app.use(express.static(path.join(__dirname, 'public')));
