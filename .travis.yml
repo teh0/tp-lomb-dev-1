@@ -8,3 +8,5 @@ deploy:
     app:
         main: sg-001-prod
         develop: sg-456-staging
+
+after_success: npm run coveralls
