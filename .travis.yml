@@ -8,6 +8,3 @@ deploy:
     app:
         main: sg-001-prod
         develop: sg-456-staging
-
-service_name: travis-pro
-repo_token: EDqPDy1jlGhRkX2JN6GB6ylys8tfKTWDu
